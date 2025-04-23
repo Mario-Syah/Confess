@@ -36,10 +36,10 @@ function init() {
     ctx.fillRect(0, 0, width, height);
 
     function drawText() {
-        ctx.font = "50px cursive";
+        ctx.font = "40px cursive";
         ctx.fillStyle = "#FFE4E1";
         ctx.textAlign = "center";
-        ctx.fillText("🤍I love you , i miss you, i need you one and only you sayang🤍", width / 2, height / 2.2 + 400);
+        ctx.fillText("🤍I love you , i miss you, i need you one and only you sayang🤍", width / 2, height / 2.2 + 350);
     }
 
     function heartPosition(rad) {
